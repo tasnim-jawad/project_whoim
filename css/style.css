@@ -35,7 +35,7 @@ body header nav .row .option ul .download {
   border-radius: 50px;
 }
 body header #banner .row .left_tex {
-  padding: 180px 60px 200px 0px;
+  padding: 180px 100px 200px 0px;
 }
 body header #banner .row .left_tex .text_body h2 {
   font-size: 33px;
@@ -114,7 +114,7 @@ body header #banner .row .right_img .img_back {
   width: 560px;
   border-radius: 50%;
   position: absolute;
-  bottom: -5px;
+  bottom: 1px;
 }
 body header #banner .row .right_img .img_back img {
   height: 100%;
