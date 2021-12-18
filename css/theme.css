@@ -1,0 +1,27 @@
+:root{
+    --pg:#000100;
+    --brand1:#ef5c6e;
+    --brand2:#7152f5;
+    --white:#ffffff;
+    --black:#807a96;
+    --border:1px solid red;
+}
+
+p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "open-sans-regular";
+}
+
+
+@font-face {
+    font-family: 'open-sans-regular';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'oswald-bold';
+    src: url('../fonts/Oswald/static/Oswald-Bold.ttf');
+}
+

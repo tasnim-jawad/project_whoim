@@ -1,0 +1,219 @@
+body header {
+  background-image: url(../img/background_img.jpg);
+  background-size: cover;
+}
+body header nav .row .nav_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 0px;
+  align-items: center;
+}
+body header nav .row .nav_body .logo {
+  height: 60px;
+  width: 220px;
+}
+body header nav .row .nav_body .logo img {
+  height: 100%;
+  width: 100%;
+}
+body header nav .row .option ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body header nav .row .option ul li {
+  padding: 0px 25px;
+}
+body header nav .row .option ul li a {
+  text-transform: capitalize;
+  color: var(--pg);
+}
+body header nav .row .option ul .download {
+  padding: 16px 34px;
+  border: 2px solid var(--brand1);
+  border-radius: 50px;
+}
+body header #banner .row .left_tex {
+  padding: 180px 60px 200px 0px;
+}
+body header #banner .row .left_tex .text_body h2 {
+  font-size: 33px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 800;
+  line-height: 33px;
+  padding-bottom: 20px;
+}
+body header #banner .row .left_tex .text_body h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 800;
+  line-height: 60px;
+  padding-bottom: 50px;
+}
+body header #banner .row .left_tex .text_body h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 800;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+body header #banner .row .left_tex .text_body h3 span {
+  color: var(--brand2);
+}
+body header #banner .row .left_tex .text_body p {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #807c95;
+  line-height: 20pxpx;
+  padding-bottom: 20px;
+}
+body header #banner .row .left_tex .text_body .hire {
+  display: flex;
+  flex-wrap: wrap;
+}
+body header #banner .row .left_tex .text_body .hire .link_1 {
+  padding: 10px 20px;
+  background-color: var(--brand1);
+  border-radius: 25px;
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+body header #banner .row .left_tex .text_body .hire .link_2 {
+  position: relative;
+  padding: 10px 20px;
+  color: black;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+body header #banner .row .left_tex .text_body .hire .link_2::after {
+  content: '';
+  position: absolute;
+  background-color: var(--brand1);
+  height: 2px;
+  width: 18px;
+  right: -12px;
+  top: 50%;
+}
+body header #banner .row .right_img .img_all {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  justify-content: flex-end;
+}
+body header #banner .row .right_img .img_back {
+  height: 560px;
+  width: 560px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -5px;
+}
+body header #banner .row .right_img .img_back img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+body header #banner .row .right_img .img_front {
+  height: 610px;
+  width: 560px;
+  border-radius: 50%;
+  z-index: 2;
+}
+body header #banner .row .right_img .img_front img {
+  height: 100%;
+  width: 100%;
+  border-radius: 47%;
+}
+body header #banner .row .right_img .img_top_overlay {
+  position: absolute;
+  width: 485px;
+  height: 450px;
+  background-color: var(--brand1);
+  top: 0px;
+  transform: translate(-13%, 30%) rotate(-35deg);
+  opacity: 0.4;
+  z-index: 3;
+}
+body header #banner .row .right_img .img_top_rect {
+  position: absolute;
+  width: 515px;
+  height: 470px;
+  border: 7px solid #febd2d;
+  transform: translate(-12%, 14%);
+  z-index: 4;
+}
+body header #banner .row .right_img .circle_project {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 5;
+  position: absolute;
+  transform: translate(21%, 57%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header #banner .row .right_img .circle_project h1 {
+  color: var(--brand2);
+  font-size: 21px;
+  font-weight: bold;
+  font-family: cursive;
+  line-height: 40px;
+}
+body header #banner .row .right_img .circle_project h3 {
+  font-family: 'open-sans-regular';
+  text-transform: capitalize;
+  font-weight: 600;
+}
+body header #banner .row .right_img .circle_success {
+  width: 210px;
+  height: 210px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 5;
+  position: absolute;
+  transform: translate(-205%, 174%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header #banner .row .right_img .circle_success h1 {
+  color: var(--brand2);
+  font-size: 45px;
+  font-weight: bold;
+  font-family: cursive;
+  line-height: 60px;
+}
+body header #banner .row .right_img .circle_success h3 {
+  font-family: 'open-sans-regular';
+  text-transform: capitalize;
+  font-weight: 600;
+}
+body header #banner .row .right_img .circle_model {
+  width: 125px;
+  height: 125px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 5;
+  position: absolute;
+  transform: translate(-15%, 386%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header #banner .row .right_img .circle_model i {
+  font-size: 37px;
+  color: var(--brand1);
+}
