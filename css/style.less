@@ -44,8 +44,12 @@ body{
         }
         #banner{
             .row{
+                position: relative;
+                align-items: center;
+                padding-bottom: 230px;
                 .left_tex{
-                    padding: 180px 100px 200px 0px;
+                    position: relative;
+                    padding-right: 90px;
                     .text_body{
                         h2{
                             font-size: 33px;
@@ -113,9 +117,37 @@ body{
                             }
                         }
                     }
+                    .s_links{
+                        display: inline-block;
+                        position: absolute;
+                        top: 50%;
+                        left: -100px;
+                        transform: translate(-50%,-50%) rotate(-90deg);
+                        ul{
+                            display: inline-flex;
+                            flex-wrap: wrap;
+                            li{
+                                display: inline-flex;
+                                flex-wrap: wrap;
+                                padding: 0px 20px;
+                                align-items: center;
+                                a{
+                                    font-size: 16px;
+                                    line-height: 16px;
+                                }
+                                p{
+                                    color: black;
+                                    font-weight: 800;
+                                    text-transform: capitalize;
+                                    padding-left: 12px;
+                                    font-size: 13px;
+                                    line-height: 13px;
+                                }
+                            }
+                        }
+                    }
                 }
                 .right_img{
-                    
                     .img_all{
                         display: flex;
                         flex-wrap: wrap;
@@ -235,7 +267,30 @@ body{
                         }
                     }
                 }
+                .mouse{
+                    padding: 0px;
+                    height: 24px;
+                    width: 16px;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    position: relative;
+                    position: absolute;
+                    bottom: 110px;
+                    right: 0px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    &::after{
+                        content: '';
+                        height: 7px;
+                        width: 2px;
+                        background-color: black;
+                        position: absolute;
+                    }
+                }
             }
+            
         }
     }
+    
 }
